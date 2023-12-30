@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Mining | Welcome!</title>
+    <link>https://example.com/tag/data-mining/</link>
+      <atom:link href="https://example.com/tag/data-mining/index.xml" rel="self" type="application/rss+xml" />
+    <description>Data Mining</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hubd979b96828314d34ff1ac73d4ae29ee_17978_512x512_fill_lanczos_center_3.png</url>
+      <title>Data Mining</title>
+      <link>https://example.com/tag/data-mining/</link>
+    </image>
+    
+    <item>
+      <title>Pathos: Associations of Word Usage and Emotions</title>
+      <link>https://example.com/project/pathos/</link>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/pathos/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;In the realm of psychology and neuroscience, understanding human experiences and emotions through word usage can present a fascinating and diﬀicult challenge. Words choice can be highly person and context-dependent. However, with a large enough sample of written answers to a single question prompt, we may be able to identify certain trends in word usage.&lt;/p&gt;
+&lt;p&gt;In this project, I used a dataset (X. Alice Li and Devi Parikh, 2019) that contains a large number (N = 1473) of written responses to the question: “What were salient aspects of your day yesterday? How did you feel about them?”. Additionally, each response is labelled with one or more emotion from an exhaustive list of 18 different emotions.&lt;/p&gt;
+&lt;p&gt;In my analysis, I attempted to find associations between frequent words that participants included in their responses and the emotions these responses were labelled with. Next, I explored word co-occurence and the associations of word pairs to emotions. Certain trends in word usage and emotional labels were identified throughout the analysis, however, an issue with the sample size was also noted.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

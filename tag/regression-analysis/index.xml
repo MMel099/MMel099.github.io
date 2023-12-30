@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Regression Analysis | Welcome!</title>
+    <link>https://example.com/tag/regression-analysis/</link>
+      <atom:link href="https://example.com/tag/regression-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Regression Analysis</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hubd979b96828314d34ff1ac73d4ae29ee_17978_512x512_fill_lanczos_center_3.png</url>
+      <title>Regression Analysis</title>
+      <link>https://example.com/tag/regression-analysis/</link>
+    </image>
+    
+    <item>
+      <title>Pathos: Associations of Word Usage and Emotions</title>
+      <link>https://example.com/project/pathos/</link>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/pathos/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;In the realm of psychology and neuroscience, understanding human experiences and emotions through word usage can present a fascinating and diﬀicult challenge. Words choice can be highly person and context-dependent. However, with a large enough sample of written answers to a single question prompt, we may be able to identify certain trends in word usage.&lt;/p&gt;
+&lt;p&gt;In this project, I used a dataset (X. Alice Li and Devi Parikh, 2019) that contains a large number (N = 1473) of written responses to the question: “What were salient aspects of your day yesterday? How did you feel about them?”. Additionally, each response is labelled with one or more emotion from an exhaustive list of 18 different emotions.&lt;/p&gt;
+&lt;p&gt;In my analysis, I attempted to find associations between frequent words that participants included in their responses and the emotions these responses were labelled with. Next, I explored word co-occurence and the associations of word pairs to emotions. Certain trends in word usage and emotional labels were identified throughout the analysis, however, an issue with the sample size was also noted.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sweet Dreams: A Regression Analysis of Macronutrient Intake and Sleep Quality</title>
+      <link>https://example.com/project/sweet-dreams/</link>
+      <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/sweet-dreams/</guid>
+      <description>&lt;p&gt;This project was completed as part of a group effort with fellow biostatistics MS candidates Alex Mellott and &lt;a href=&#34;&#34;&gt;Naveen Pednekar&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Sleep quality is a critical component of overall well-being, with numerous factors affecting its duration and depth. Among these factors, nutrition plays a pivotal yet underexplored role in regulating sleep quality. Accurately measuring an individual’s dietary intake is a fundamental challenge in nutritional research. The National Health and Nutrition Examination Survey (NHANES) is an annual survey conducted by the Centers for Disease Control and Prevention (CDC) that collects various health-related data and weights it to be nationally representative.&lt;/p&gt;
+&lt;p&gt;This project takes advantage of the large sample size of the NHANES dataset to draw associations between macronutrient predictors and sleep quality outcomes. Moreover, the demographic data collected through NHANES others us a way to investigate relevant confounders that are associated with both nutrition and sleep. We identified three final outcome variables related to sleep quality. One outcome was the duration of sleep, rounded to the closest half-hour, on weekdays; this outcome was modeled using multiple linear regression. Another relevant outcome was an indicator for whether the participant had ever told a doctor about trouble sleeping; this was modeled using multinomial regression. The final outcome was a categorical variable asking how often a participant felt overly sleepy during the past month. Furthermore, we aggregated our three sleep outcomes into a single overall metric of sleep quality and fit a Quasi-Poisson regression model.&lt;/p&gt;
+&lt;p&gt;Fiber intake was found to be positively associated with sleep quality, across linear, multinomial, and Quasi-Poisson regressions. Protein was found to have a negative association with length and quality of sleep across the Quasi-Poisson and linear models. Carbohydrates were found to have a harmful effect on sleep quality in the adjusted multinomial models.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
