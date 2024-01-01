@@ -241,6 +241,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5TVT962Q9F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-5TVT962Q9F', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -777,19 +816,19 @@
     
       <li><a href="/project/sweet-dreams/">Sweet Dreams: A Regression Analysis of Macronutrient Intake and Sleep Quality</a></li>
     
-      <li><a href="/post/">Posts</a></li>
-    
-      <li><a href="/post/blog-with-jupyter/">Blog with Jupyter Notebooks!</a></li>
-    
       <li><a href="/event/">Recent &amp; Upcoming Talks</a></li>
     
       <li><a href="/talk/principle-component-analysis/">Principle Component Analysis</a></li>
     
       <li><a href="/post/getting-started/">Welcome to Hugo Blox Builder, the website builder for Hugo</a></li>
     
+      <li><a href="/post/">Posts</a></li>
+    
       <li><a href="/post/2020-12-01-r-rmarkdown/">Hello R Markdown</a></li>
     
       <li><a href="/post/writing-technical-content/">Writing technical content in Markdown</a></li>
+    
+      <li><a href="/publication/">Publications</a></li>
     
   </ul>
   

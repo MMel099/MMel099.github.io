@@ -241,6 +241,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5TVT962Q9F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-5TVT962Q9F', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -331,7 +370,7 @@
 <meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Hugo Blox Builder." /><meta property="og:image" content="https://example.com/media/icon_hubd979b96828314d34ff1ac73d4ae29ee_17978_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
-    <meta property="og:updated_time" content="2023-11-04T00:00:00&#43;00:00" />
+    <meta property="og:updated_time" content="2020-12-13T00:00:00&#43;00:00" />
   
 
 
@@ -790,100 +829,6 @@
   
 
   
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/post/blog-with-jupyter/" >Blog with Jupyter Notebooks!</a>
-    </div>
-
-    
-    <a href="/post/blog-with-jupyter/"  class="summary-link">
-      <div class="article-style">
-        Easily blog from Jupyter notebooks!
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    Nov 4, 2023
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    1 min read
-  </span>
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-      
-      
-      <a href="/post/blog-with-jupyter/" >
-        <img src="/post/blog-with-jupyter/featured_hub1daa031c2af6888ff37bd93eb033a1a_71549_939148d543590843a51666a0f5785b84.webp" height="65" width="150"
-            alt="Blog with Jupyter Notebooks!" loading="lazy">
-      </a>
-    
-  </div>
-</div>
-
   
     
 

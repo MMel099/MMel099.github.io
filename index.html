@@ -104,15 +104,8 @@
         
       
         
-          
-          
-        
-      
-        
       
     
-    
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" media="print" onload="this.media='all'">
     
 
     
@@ -263,6 +256,45 @@
 
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5TVT962Q9F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-5TVT962Q9F', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
 
@@ -2747,23 +2779,6 @@ Chem 18 General Chemistry Laboratory (Fall 2020 and Spring 2021)</p>
 
 
 
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-    
-      
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/" >
-    Follow</a>
-
 
     </div>
     
@@ -2937,100 +2952,6 @@ Chem 18 General Chemistry Laboratory (Fall 2020 and Spring 2021)</p>
 <div class="col-12 col-lg-8">
 
   
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/post/blog-with-jupyter/" >Blog with Jupyter Notebooks!</a>
-    </div>
-
-    
-    <a href="/post/blog-with-jupyter/"  class="summary-link">
-      <div class="article-style">
-        Easily blog from Jupyter notebooks!
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    Nov 4, 2023
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    1 min read
-  </span>
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-      
-      
-      <a href="/post/blog-with-jupyter/" >
-        <img src="/post/blog-with-jupyter/featured_hub1daa031c2af6888ff37bd93eb033a1a_71549_939148d543590843a51666a0f5785b84.webp" height="65" width="150"
-            alt="Blog with Jupyter Notebooks!" loading="lazy">
-      </a>
-    
-  </div>
-</div>
 
   
     
@@ -3363,236 +3284,6 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="section-markdown" class="home-section wg-markdown  "  >
- <div class="home-section-bg " >
-   
- </div>
-  <div class="container">
-
-  
-    <div class="row  justify-content-center">
-    
-      
-        <div class="section-heading col-12 mb-3 text-center">
-          <h1 class="mb-0">Hobbies</h1>
-          
-        </div>
-      
-    
-  
-
-    
-
-
-
-
-
-
-
-
-
-
-  <div class="col-12">
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="gallery-grid">
-
-  
-  
-  
-    
-    
-    
-    
-    
-  
-  
-  <div class="gallery-item gallery-item--medium">
-    <a data-fancybox="gallery-demo" href="/media/albums/demo/chris-montgomery-smgTvepind4-unsplash.jpg" >
-      <img src="/media/albums/demo/chris-montgomery-smgTvepind4-unsplash_hu68f1f4ae312ace90ad56e06a7b965ca9_245831_750x750_fit_q75_h2_lanczos.webp" loading="lazy" alt="chris-montgomery-smgTvepind4-unsplash.jpg" width="750" height="563">
-    </a>
-  </div>
-  
-    
-    
-    
-    
-    
-  
-  
-    
-  
-  <div class="gallery-item gallery-item--full">
-    <a data-fancybox="gallery-demo" href="/media/albums/demo/dan-gold-4_jhDO54BYg-unsplash-f.jpg" >
-      <img src="/media/albums/demo/dan-gold-4_jhDO54BYg-unsplash-f_hubb57eb7d78eb9d6871b4f982a9cfe98b_447788_750x750_fit_q75_h2_lanczos.webp" loading="lazy" alt="dan-gold-4_jhDO54BYg-unsplash-f.jpg" width="750" height="500">
-    </a>
-  </div>
-  
-    
-    
-    
-    
-    
-  
-  
-  <div class="gallery-item gallery-item--medium">
-    <a data-fancybox="gallery-demo" href="/media/albums/demo/fotografierende-333oj7zFsdg-unsplash.jpg" >
-      <img src="/media/albums/demo/fotografierende-333oj7zFsdg-unsplash_hu596cc7cd654d6dbe93ef5a0a61cb3766_116195_750x750_fit_q75_h2_lanczos.webp" loading="lazy" alt="fotografierende-333oj7zFsdg-unsplash.jpg" width="750" height="500">
-    </a>
-  </div>
-  
-    
-    
-    
-    
-    
-  
-  
-  <div class="gallery-item gallery-item--medium">
-    <a data-fancybox="gallery-demo" href="/media/albums/demo/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg" >
-      <img src="/media/albums/demo/glenn-carstens-peters-npxXWgQ33ZQ-unsplash_hufe7234d721dea2d4376339533ed0a7b7_115372_750x750_fit_q75_h2_lanczos.webp" loading="lazy" alt="glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg" width="750" height="499">
-    </a>
-  </div>
-  
-    
-    
-    
-    
-    
-  
-  
-  <div class="gallery-item gallery-item--medium">
-    <a data-fancybox="gallery-demo" href="/media/albums/demo/joseph-gonzalez-zcUgjyqEwe8-unsplash.jpg" >
-      <img src="/media/albums/demo/joseph-gonzalez-zcUgjyqEwe8-unsplash_hu0da53bf391414dd35b860edb2d47ae67_331376_750x750_fit_q75_h2_lanczos.webp" loading="lazy" alt="joseph-gonzalez-zcUgjyqEwe8-unsplash.jpg" width="580" height="750">
-    </a>
-  </div>
-  
-    
-    
-    
-    
-    
-  
-  
-    
-  
-  <div class="gallery-item gallery-item--large">
-    <a data-fancybox="gallery-demo" href="/media/albums/demo/matthew-osborn-wMRIcT86SWU-unsplash-l.jpg" >
-      <img src="/media/albums/demo/matthew-osborn-wMRIcT86SWU-unsplash-l_hu5617109cd94ff53d835059e892c0ab5d_398024_750x750_fit_q75_h2_lanczos.webp" loading="lazy" alt="matthew-osborn-wMRIcT86SWU-unsplash-l.jpg" width="750" height="500">
-    </a>
-  </div>
-  
-    
-    
-    
-    
-    
-  
-  
-  <div class="gallery-item gallery-item--medium">
-    <a data-fancybox="gallery-demo" href="/media/albums/demo/priscilla-du-preez-K8XYGbw4Ahg-unsplash.jpg" >
-      <img src="/media/albums/demo/priscilla-du-preez-K8XYGbw4Ahg-unsplash_huef8cdcc68a376950d1b1bcb089263869_96811_750x750_fit_q75_h2_lanczos.webp" loading="lazy" alt="priscilla-du-preez-K8XYGbw4Ahg-unsplash.jpg" width="750" height="500">
-    </a>
-  </div>
-  
-
-</div>
-
-
-  </div>
-
-
-
-  
-    </div>
-  
-
-  </div>
-</section>
-
-  
-
-  
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -3735,7 +3426,7 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
       
       <li>
         <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
-        <span id="person-address">677 Huntington Ave, Boston, CA 02115</span>
+        <span id="person-address">677 Huntington Ave, Boston, MA 02115</span>
       </li>
     
 
@@ -3801,7 +3492,7 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
     <input id="map-provider" value="mapnik">
     <input id="map-lat" value="42.3354">
     <input id="map-lng" value="-71.1025">
-    <input id="map-dir" value="677 Huntington Ave, Boston, CA 02115">
+    <input id="map-dir" value="677 Huntington Ave, Boston, MA 02115">
     <input id="map-zoom" value="15">
     <input id="map-api-key" value="">
   </div>
@@ -3930,8 +3621,6 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
   
 
   
-  
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous"></script>
   
 
   
