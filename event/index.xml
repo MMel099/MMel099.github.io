@@ -13,11 +13,11 @@
     </image>
     
     <item>
-      <title>Principle Component Analysis</title>
-      <link>https://example.com/talk/principle-component-analysis/</link>
+      <title>Principal Component Analysis</title>
+      <link>https://example.com/talk/principal-component-analysis/</link>
       <pubDate>Fri, 09 Dec 2022 12:00:00 +0000</pubDate>
-      <guid>https://example.com/talk/principle-component-analysis/</guid>
-      <description>&lt;p&gt;I created this video for my final presentation in my linear algebra course while at Brandeis. For this assignment, we had to make a tutorial video on a topic relating to something that was covered in class. In my video presentation, I outlined the principle component analysis (PCA) method and its relationship to eigenvectors and eigenvalues.&lt;/p&gt;
+      <guid>https://example.com/talk/principal-component-analysis/</guid>
+      <description>&lt;p&gt;I created a video for the final presentation in the linear algebra course at Brandeis. The assignment required a tutorial video on a topic related to class coverage. The presentation outlined the principal component analysis (PCA) method and its relationship to eigenvectors and eigenvalues.&lt;/p&gt;
 
 
 
@@ -36,7 +36,7 @@
 
 
 &lt;video controls  &gt;
-  &lt;source src=&#34;https://example.com/talk/principle-component-analysis/pca.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  &lt;source src=&#34;https://example.com/talk/principal-component-analysis/pca.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 
 </description>
