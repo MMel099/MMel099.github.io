@@ -2,86 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/post/kmeans/</loc>
+    <loc>https://mmel099.github.io/post/hodgkin-huxley/</loc>
+    <lastmod>2024-01-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://mmel099.github.io/post/</loc>
+    <lastmod>2024-01-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://mmel099.github.io/post/kmeans/</loc>
     <lastmod>2024-01-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/post/</loc>
-    <lastmod>2024-01-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/tag/data-mining/</loc>
+    <loc>https://mmel099.github.io/tag/data-mining/</loc>
     <lastmod>2023-12-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/project/pathos/</loc>
+    <loc>https://mmel099.github.io/project/pathos/</loc>
     <lastmod>2023-12-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/project/</loc>
+    <loc>https://mmel099.github.io/project/</loc>
     <lastmod>2023-12-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/regression-analysis/</loc>
+    <loc>https://mmel099.github.io/tag/regression-analysis/</loc>
     <lastmod>2023-12-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://mmel099.github.io/tags/</loc>
     <lastmod>2023-12-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/project/sweet-dreams/</loc>
+    <loc>https://mmel099.github.io/project/sweet-dreams/</loc>
     <lastmod>2023-12-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talk/principal-component-analysis/</loc>
+    <loc>https://mmel099.github.io/talk/principal-component-analysis/</loc>
     <lastmod>2022-12-09T12:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/event/</loc>
+    <loc>https://mmel099.github.io/event/</loc>
     <lastmod>2022-12-09T12:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/</loc>
+    <loc>https://mmel099.github.io/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/academic/</loc>
-    <lastmod>2020-12-16T00:00:00+00:00</lastmod>
+    <loc>https://mmel099.github.io/categories/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/categories/</loc>
-    <lastmod>2020-12-16T00:00:00+00:00</lastmod>
+    <loc>https://mmel099.github.io/publication_types/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/category/demo/</loc>
-    <lastmod>2020-12-16T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/post/hodgkin-huxley/</loc>
-    <lastmod>2020-12-16T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/tag/%E5%BC%80%E6%BA%90/</loc>
-    <lastmod>2020-12-16T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/category/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2020-12-16T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/slides/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/slides/example/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/publication_types/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/publication/</loc>
+    <loc>https://mmel099.github.io/publication/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

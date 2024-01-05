@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: January 4, 2024 --><html lang="en-us" >
+<!-- Last Published: January 5, 2024 --><html lang="en-us" >
 
 
 <head>
@@ -66,6 +66,9 @@
   
 
   
+  
+    
+    <script src="/js/mathjax-config.js"></script>
   
 
   
@@ -185,9 +188,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -318,12 +321,12 @@
 
   
 
-<meta name="description" content="Associations between nutrition and sleep quality" />
+<meta name="description" content="Exploring various sleep quality endpoints with multiple, logistic, multinomial and poisson regression" />
 
 
 
-<link rel="alternate" hreflang="en-us" href="https://example.com/project/sweet-dreams/" />
-<link rel="canonical" href="https://example.com/project/sweet-dreams/" />
+<link rel="alternate" hreflang="en-us" href="https://mmel099.github.io/project/sweet-dreams/" />
+<link rel="canonical" href="https://mmel099.github.io/project/sweet-dreams/" />
 
 
 
@@ -353,7 +356,7 @@
 
 
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="https://example.com/project/sweet-dreams/featured.png" />
+<meta property="twitter:image" content="https://mmel099.github.io/project/sweet-dreams/featured.png" />
 
 
 
@@ -361,9 +364,9 @@
 
 <meta property="og:type" content="article" />
 <meta property="og:site_name" content="Welcome!" />
-<meta property="og:url" content="https://example.com/project/sweet-dreams/" />
+<meta property="og:url" content="https://mmel099.github.io/project/sweet-dreams/" />
 <meta property="og:title" content="Sweet Dreams: A Regression Analysis of Macronutrient Intake and Sleep Quality | Welcome!" />
-<meta property="og:description" content="Associations between nutrition and sleep quality" /><meta property="og:image" content="https://example.com/project/sweet-dreams/featured.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:description" content="Exploring various sleep quality endpoints with multiple, logistic, multinomial and poisson regression" /><meta property="og:image" content="https://mmel099.github.io/project/sweet-dreams/featured.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -396,12 +399,12 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://example.com/project/sweet-dreams/"
+    "@id": "https://mmel099.github.io/project/sweet-dreams/"
   },
   "headline": "Sweet Dreams: A Regression Analysis of Macronutrient Intake and Sleep Quality",
   
   "image": [
-    "https://example.com/project/sweet-dreams/featured.png"
+    "https://mmel099.github.io/project/sweet-dreams/featured.png"
   ],
   
   "datePublished": "2023-12-10T00:00:00Z",
@@ -417,10 +420,10 @@
     "name": "Harvard Chan",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://example.com/media/icon_hubd979b96828314d34ff1ac73d4ae29ee_17978_192x192_fill_lanczos_center_3.png"
+      "url": "https://mmel099.github.io/media/icon_hubd979b96828314d34ff1ac73d4ae29ee_17978_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Associations between nutrition and sleep quality"
+  "description": "Exploring various sleep quality endpoints with multiple, logistic, multinomial and poisson regression"
 }
 </script>
 
@@ -1001,8 +1004,7 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>This project was completed as part of a group effort with fellow biostatistics MS candidates Alex Mellott and <a href="">Naveen Pednekar</a></p>
-<h2 id="abstract">Abstract</h2>
+      <h2 id="abstract">Abstract</h2>
 <p>Sleep quality is a critical component of overall well-being, with numerous factors affecting its duration and depth. Among these factors, nutrition plays a pivotal yet underexplored role in regulating sleep quality. Accurately measuring an individual’s dietary intake is a fundamental challenge in nutritional research. The National Health and Nutrition Examination Survey (NHANES) is an annual survey conducted by the Centers for Disease Control and Prevention (CDC) that collects various health-related data and weights it to be nationally representative.</p>
 <p>This project takes advantage of the large sample size of the NHANES dataset to draw associations between macronutrient predictors and sleep quality outcomes. Moreover, the demographic data collected through NHANES others us a way to investigate relevant confounders that are associated with both nutrition and sleep. We identified three final outcome variables related to sleep quality. One outcome was the duration of sleep, rounded to the closest half-hour, on weekdays; this outcome was modeled using multiple linear regression. Another relevant outcome was an indicator for whether the participant had ever told a doctor about trouble sleeping; this was modeled using multinomial regression. The final outcome was a categorical variable asking how often a participant felt overly sleepy during the past month. Furthermore, we aggregated our three sleep outcomes into a single overall metric of sleep quality and fit a Quasi-Poisson regression model.</p>
 <p>Fiber intake was found to be positively associated with sleep quality, across linear, multinomial, and Quasi-Poisson regressions. Protein was found to have a negative association with length and quality of sleep across the Quasi-Poisson and linear models. Carbohydrates were found to have a harmful effect on sleep quality in the adjusted multinomial models.</p>
@@ -1055,11 +1057,11 @@
   <div class="media author-card content-widget-hr">
     
       
-      <a href="https://example.com/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu7d18a30c358dfe9b41b639d578d3e2cd_391198_270x270_fill_q75_lanczos_center.jpeg" alt="Max Melnikas"></a>
+      <a href="https://mmel099.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu7d18a30c358dfe9b41b639d578d3e2cd_391198_270x270_fill_q75_lanczos_center.jpeg" alt="Max Melnikas"></a>
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="https://example.com/">Max Melnikas</a></h5>
+      <h5 class="card-title"><a href="https://mmel099.github.io/">Max Melnikas</a></h5>
       <h6 class="card-subtitle">Master of Science Candidate</h6>
       <p class="card-text">My research interests include applications of digital devices for cognitive health monitoring and research matter.</p>
       <ul class="network-icon" aria-hidden="true">

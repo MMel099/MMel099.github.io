@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks | Welcome!</title>
-    <link>https://example.com/event/</link>
-      <atom:link href="https://example.com/event/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mmel099.github.io/event/</link>
+      <atom:link href="https://mmel099.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 09 Dec 2022 12:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hubd979b96828314d34ff1ac73d4ae29ee_17978_512x512_fill_lanczos_center_3.png</url>
+      <url>https://mmel099.github.io/media/icon_hubd979b96828314d34ff1ac73d4ae29ee_17978_512x512_fill_lanczos_center_3.png</url>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>https://example.com/event/</link>
+      <link>https://mmel099.github.io/event/</link>
     </image>
     
     <item>
       <title>Principal Component Analysis</title>
-      <link>https://example.com/talk/principal-component-analysis/</link>
+      <link>https://mmel099.github.io/talk/principal-component-analysis/</link>
       <pubDate>Fri, 09 Dec 2022 12:00:00 +0000</pubDate>
-      <guid>https://example.com/talk/principal-component-analysis/</guid>
+      <guid>https://mmel099.github.io/talk/principal-component-analysis/</guid>
       <description>&lt;p&gt;I created a video for the final presentation in the linear algebra course at Brandeis. The assignment required a tutorial video on a topic related to class coverage. The presentation outlined the principal component analysis (PCA) method and its relationship to eigenvectors and eigenvalues.&lt;/p&gt;
 
 
@@ -36,7 +36,7 @@
 
 
 &lt;video controls  &gt;
-  &lt;source src=&#34;https://example.com/talk/principal-component-analysis/pca.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  &lt;source src=&#34;https://mmel099.github.io/talk/principal-component-analysis/pca.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 
 </description>
