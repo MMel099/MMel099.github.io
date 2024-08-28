@@ -2,6 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mmel099.github.io/project/</loc>
+    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://mmel099.github.io/tag/regression/</loc>
+    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://mmel099.github.io/tags/</loc>
+    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://mmel099.github.io/project/used-car-finder/</loc>
+    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://mmel099.github.io/post/hodgkin-huxley/</loc>
     <lastmod>2024-01-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -14,23 +30,15 @@
     <lastmod>2024-01-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://mmel099.github.io/tag/data-mining/</loc>
+    <loc>https://mmel099.github.io/tag/classification/</loc>
+    <lastmod>2023-12-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://mmel099.github.io/tag/clustering/</loc>
     <lastmod>2023-12-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://mmel099.github.io/project/pathos/</loc>
-    <lastmod>2023-12-19T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://mmel099.github.io/project/</loc>
-    <lastmod>2023-12-19T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://mmel099.github.io/tag/regression-analysis/</loc>
-    <lastmod>2023-12-19T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://mmel099.github.io/tags/</loc>
     <lastmod>2023-12-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -67,10 +75,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://mmel099.github.io/tag/r-markdown/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://mmel099.github.io/tag/regression/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
