@@ -1,0 +1,18 @@
+# Latest Data Page
+
+```{r, echo=F, message=F}
+# Load necessary libraries
+library(readr)
+library(knitr)
+library(kableExtra)
+library(rmarkdown)
+
+# Read the CSV file from the remote location
+url <- "https://raw.githubusercontent.com/MMel099/UsedCarPricer/main/data/newest_data.csv"
+data <- read_csv(url)
+
+# Create and style the table using kableExtra
+kable(data, format = "html", table.attr = "style='width:100%;'") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), full_width = TRUE)
+```
+\
