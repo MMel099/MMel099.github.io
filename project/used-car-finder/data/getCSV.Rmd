@@ -9,10 +9,12 @@ library(rmarkdown)
 
 # Read the CSV file from the remote location
 url <- "https://raw.githubusercontent.com/MMel099/UsedCarPricer/main/data/newest_data.csv"
-data <- read_csv(url)
+data <- as.data.frame(read_csv(url))
 
-# Create and style the table using kableExtra
-kable(data, format = "html", table.attr = "style='width:100%;'") %>%
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"), full_width = TRUE)
+# Rename the columns
+names(data) <- c("Year", "Mileage", "Listed Price", "Trim", "Vin", "Dealership", "City", "Date", "Estimated Price", "Discount")
+
+# Reorder the columns
+summary_data <- data[c("Date", "Year", "Mileage", "Trim", "Listed Price", "Estimated Price", "Discount")]
+DT::datatable(data.summary)
 ```
-\
