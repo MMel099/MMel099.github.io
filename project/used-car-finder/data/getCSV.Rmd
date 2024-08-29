@@ -16,5 +16,5 @@ names(data) <- c("Year", "Mileage", "Listed Price", "Trim", "Vin", "Dealership",
 
 # Reorder the columns
 summary_data <- data[c("Date", "Year", "Mileage", "Trim", "Listed Price", "Estimated Price", "Discount")]
-DT::datatable(data.summary)
+DT::datatable(data.summary, filter = 'top')
 ```
