@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: August 28, 2024 --><html lang="en-us" >
+<!-- Last Published: August 29, 2024 --><html lang="en-us" >
 
 
 <head>
@@ -1000,6 +1000,7 @@
 <p>The AutoDev API was accessed to gather the data necessary to train the model. Toyota Camrys were used for this project due to their popularity and desirability. Cars produced before 2015 were not included. There were no mileage parameters, meaning new cars were included for this component. Additionally, a radius of 150 miles around Boston was imposed for this search. Most (~85%) Camrys that fit this criteria fell into one of four trims: LE, SE, XLE, XSE. These four were the only ones considered.</p>
 <p>In the regression model, trim was expanded into dummy (indicator) variables for each trim. Mileage was included as a simple linear effect. Year was incorporated in a complex way: after converting model year into &lsquo;how old&rsquo; each car was, a log transform was applied. The rationale behind this decision came from the logic that a change from &lsquo;year 1&rsquo; to &lsquo;year 2&rsquo; should be more significant than &lsquo;year 6&rsquo; to &lsquo;year 7&rsquo;. Furthermore, each year was granted its own dummy (indicator) variable as well. This added flexibility was introduced to qualify how the data deviates from the assumed log year term. The final model was selected using likelihood ratio tests.</p>
 <p>The next step of this project lead me into the area of automation. After generating a script that made a new API call and ran it through the pre-trained regression model. This step produced an estimated price of the car. Comparison of this price with the actual price of the vehicle lead to discount prices. The automation step of this project was a bit tricky but was accomplished with GitHub Actions and YAML. By setting up the YAML file, I enabled a trigger for my script to run every day at midnight and publish the results straight to the github repository.</p>
+<p><a href="getCSV.html">newest</a></p>
 
     </div>
 
