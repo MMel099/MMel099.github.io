@@ -1,4 +1,3 @@
-# Latest Data Page
 
 ```{r, echo=F, message=F}
 # Load necessary libraries
@@ -8,13 +7,13 @@ library(kableExtra)
 library(rmarkdown)
 
 # Read the CSV file from the remote location
-url <- "https://raw.githubusercontent.com/MMel099/UsedCarPricer/main/data/newest_data.csv"
+url <- "https://raw.githubusercontent.com/MMel099/UsedCarPricer/main/data/master_data.csv"
 data <- as.data.frame(read_csv(url))
 
 # Rename the columns
 names(data) <- c("Year", "Mileage", "Listed Price", "Trim", "Vin", "Dealership", "City", "Date", "Estimated Price", "Discount")
 
 # Reorder the columns
-summary_data <- data[c("Date", "Year", "Mileage", "Trim", "Listed Price", "Estimated Price", "Discount")]
+data.summary <- data[c("Date", "Year", "Mileage", "Trim", "Listed Price", "Estimated Price", "Discount")]
 DT::datatable(data.summary, filter = 'top')
 ```
