@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mmel099.github.io/project/used-car-finder/</loc>
+    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://mmel099.github.io/project/</loc>
     <lastmod>2024-08-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -11,10 +15,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://mmel099.github.io/tags/</loc>
-    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://mmel099.github.io/project/used-car-finder/</loc>
     <lastmod>2024-08-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
