@@ -1,0 +1,22 @@
+# Car Database
+
+This page contains the last month of Toyota Camry listings. Estimated price was determined using a regression model and discounts were calculated using the difference of estimated price and the listing price.
+$$
+Discount = Estimated\ Price - Listing\ Price
+$$
+
+This data was last updated at `r format(Sys.time(), "%Y-%m-%d %H:%M:%S")`.
+
+```{r, echo=F, message=F}
+# Load necessary libraries
+library(readr)
+library(knitr)
+library(kableExtra)
+library(rmarkdown)
+
+# Read the CSV file from the remote location
+url <- "https://raw.githubusercontent.com/MMel099/UsedCarPricer/main/data/thirty_day_data.csv"
+data <- as.data.frame(read_csv(url))
+
+DT::datatable(data, filter = 'top')
+```
